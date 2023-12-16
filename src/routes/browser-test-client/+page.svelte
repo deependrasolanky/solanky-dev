@@ -18,7 +18,7 @@
             agentClientHints = ua;
         });
   </script>
-
+<div class="m-5">
 <h1 class="text-3xl font-bold">
     Mobile Phone Model : {agentClientHints.model
         ? agentClientHints.model
@@ -30,3 +30,4 @@
 <div class="inline-block">{agent}</div>
 <h3 class="text-xl font-bold">New Method:</h3>
 <div class="inline-block">{JSON.stringify(agentClientHints)}</div>
+</div>
