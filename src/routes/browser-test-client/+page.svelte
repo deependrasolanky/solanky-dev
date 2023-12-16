@@ -20,7 +20,7 @@
   </script>
 
 <h1 class="text-3xl font-bold">
-    Brand and Model : {agentClientHints.model
+    Mobile Phone Model : {agentClientHints.model
         ? agentClientHints.model
         : "Not Found!"}
 </h1>
