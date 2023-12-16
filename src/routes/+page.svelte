@@ -1,1 +1,1 @@
-<p><a href="/browser-test">Browser Testing</a></p>
+<div class="grid h-screen place-items-center"><a class="text-blue-600" href="/browser-test">Browser Testing</a></div>
