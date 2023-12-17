@@ -1,6 +1,8 @@
 <script>
     let agent = navigator.userAgent;
     let agentClientHints = "";
+    if (navigator.userAgentData)
+    {
     navigator.userAgentData
         .getHighEntropyValues([
             "architecture",
@@ -17,6 +19,7 @@
         .then((ua) => {
             agentClientHints = ua;
         });
+    }
   </script>
 <div class="m-5">
 <h1 class="text-3xl font-bold">
